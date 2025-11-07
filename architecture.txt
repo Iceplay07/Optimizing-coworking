@@ -1,0 +1,17 @@
+Scripts/
+├── handlers/                # Обработчики сообщений
+│   ├── start.py             # Команда /start и регистрация
+│   ├── booking.py           # Процесс бронирования
+│   ├── profile.py           # Управление профилем
+│   ├── common.py            # Общие обработчики
+│   └── view_bookings.py     # Просмотр бронирований
+├── keyboards.py             # Клавиатуры и кнопки
+├── states.py               # Состояния FSM
+├── database.py             # Работа с PostgreSQL
+├── helpers.py              # Вспомогательные функции
+├── config.py               # Конфигурация бота
+├── main.py                 # Точка входа
+├── requirements.txt        # Зависимости Python
+├── docker-compose.yml      # Docker конфигурация
+├── init.sql               # Инициализация БД
+└── README.md              # Документация
